@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MaxMod.client.iml" filepath="$PROJECT_DIR$/.idea/modules/MaxMod.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MaxMod.main.iml" filepath="$PROJECT_DIR$/.idea/modules/MaxMod.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MaxMod.test.iml" filepath="$PROJECT_DIR$/.idea/modules/MaxMod.test.iml" />
+    </modules>
+  </component>
+</project>
