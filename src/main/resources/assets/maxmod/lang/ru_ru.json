@@ -1,5 +1,11 @@
 {
   "item.maxmod.ruby": "Рубин",
+  "block.maxmod.ruby_block": "Рубиновый блок",
   "itemGroup.maxmod.ruby_group": "Мод на Рубины",
-  "block.maxmod.ruby_block": "Рубиновый блок"
+
+  "item.maxmod.ruby_sword": "Рубиновый меч",
+  "item.maxmod.ruby_pickaxe": "Рубиновая кирка",
+  "item.maxmod.ruby_axe": "Рубиновый топор",
+  "item.maxmod.ruby_shovel": "Рубиновая лопата",
+  "item.maxmod.ruby_hoe": "Рубиновая мотыга"
 }
