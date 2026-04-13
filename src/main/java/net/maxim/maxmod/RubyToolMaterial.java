@@ -25,7 +25,7 @@ public enum RubyToolMaterial implements ToolMaterial {
 
     @Override
     public int getMiningLevel() {
-        return 3;
+        return 4;
     }
 
     @Override
