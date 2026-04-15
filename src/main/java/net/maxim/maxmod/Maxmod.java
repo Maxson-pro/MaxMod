@@ -18,6 +18,11 @@ public class Maxmod implements ModInitializer {
     public static final Item RUBY_SHOVEL = new ShovelItem(RubyToolMaterial.INSTANCE,1.5F,-3F,new Item.Settings());
     public static final Item RUBY_AXE = new AxeItem(RubyToolMaterial.INSTANCE, 5, -3.0F, new Item.Settings());
     public static final Item RUBY_HOE = new HoeItem(RubyToolMaterial.INSTANCE,-1,-2.0F,new Item.Settings());
+    public static final Item RUBY_HELMET = new ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.HELMET, new Item.Settings());
+    public static final Item RUBY_CHESTPLATE = new ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.CHESTPLATE, new Item.Settings());
+    public static final Item RUBY_LEGGINGS = new ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.LEGGINGS, new Item.Settings());
+    public static final Item RUBY_BOOTS = new ArmorItem(RubyArmorMaterial.INSTANCE, ArmorItem.Type.BOOTS, new Item.Settings());
+
 
 
     public static final Item RUBY = new Item(new Item.Settings());
@@ -32,6 +37,10 @@ public class Maxmod implements ModInitializer {
                 entries.add(RUBY_SHOVEL);
                 entries.add(RUBY_AXE);
                 entries.add(RUBY_HOE);
+                entries.add(RUBY_BOOTS);
+                entries.add(RUBY_CHESTPLATE);
+                entries.add(RUBY_LEGGINGS);
+                entries.add(RUBY_HELMET);
 
             }).build();
 
@@ -46,5 +55,10 @@ public class Maxmod implements ModInitializer {
         Registry.register(Registries.ITEM,new Identifier(MOD_ID, "ruby_axe"),RUBY_AXE);
         Registry.register(Registries.ITEM,new Identifier(MOD_ID, "ruby_shovel"), RUBY_SHOVEL);
         Registry.register(Registries.ITEM,new Identifier(MOD_ID, "ruby_hoe"),RUBY_HOE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "ruby_helmet"), RUBY_HELMET);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "ruby_chestplate"), RUBY_CHESTPLATE);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "ruby_leggings"), RUBY_LEGGINGS);
+        Registry.register(Registries.ITEM, new Identifier(MOD_ID, "ruby_boots"), RUBY_BOOTS);
+
     }
 }

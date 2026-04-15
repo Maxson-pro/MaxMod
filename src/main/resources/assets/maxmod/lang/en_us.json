@@ -1,11 +1,16 @@
 {
-  "item.maxmod.ruby": "Ruby",
-  "block.maxmod.ruby_block": "Ruby Block",
-  "itemGroup.maxmod.ruby_group": "Ruby Mod",
+  "item.maxmod.ruby": "Рубин",
+  "block.maxmod.ruby_block": "Рубиновый блок",
+  "itemGroup.maxmod.ruby_group": "Мод на Рубины",
 
-  "item.maxmod.ruby_sword": "Ruby Sword",
-  "item.maxmod.ruby_pickaxe": "Ruby Pickaxe",
-  "item.maxmod.ruby_axe": "Ruby Axe",
-  "item.maxmod.ruby_shovel": "Ruby Shovel",
-  "item.maxmod.ruby_hoe": "Ruby Hoe"
+  "item.maxmod.ruby_sword": "Рубиновый меч",
+  "item.maxmod.ruby_pickaxe": "Рубиновая кирка",
+  "item.maxmod.ruby_axe": "Рубиновый топор",
+  "item.maxmod.ruby_shovel": "Рубиновая лопата",
+  "item.maxmod.ruby_hoe": "Рубиновая мотыга",
+
+  "item.maxmod.ruby_helmet": "Рубиновый шлем",
+  "item.maxmod.ruby_chestplate": "Рубиновый нагрудник",
+  "item.maxmod.ruby_leggings": "Рубиновые поножи",
+  "item.maxmod.ruby_boots": "Рубиновые ботинки"
 }

@@ -7,5 +7,10 @@
   "item.maxmod.ruby_pickaxe": "Рубиновая кирка",
   "item.maxmod.ruby_axe": "Рубиновый топор",
   "item.maxmod.ruby_shovel": "Рубиновая лопата",
-  "item.maxmod.ruby_hoe": "Рубиновая мотыга"
+  "item.maxmod.ruby_hoe": "Рубиновая мотыга",
+
+  "item.maxmod.ruby_helmet": "Рубиновый шлем",
+  "item.maxmod.ruby_chestplate": "Рубиновый нагрудник",
+  "item.maxmod.ruby_leggings": "Рубиновые поножи",
+  "item.maxmod.ruby_boots": "Рубиновые ботинки"
 }
