@@ -1,5 +1,6 @@
-package net.maxim.maxmod;
+package net.maxim.maxmod.item;
 
+import net.maxim.maxmod.Maxmod;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 import net.minecraft.recipe.Ingredient;
@@ -10,7 +11,7 @@ public enum RubyArmorMaterial implements ArmorMaterial {
     INSTANCE;
 
     private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3}; // Как у алмаза
+    private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};
 
     @Override
     public int getDurability(ArmorItem.Type type) {
@@ -38,5 +39,5 @@ public enum RubyArmorMaterial implements ArmorMaterial {
     public float getToughness() { return 2.0F; }
 
     @Override
-    public float getKnockbackResistance() { return 0.0F; }
+    public float getKnockbackResistance() { return 0.1F; }
 }
